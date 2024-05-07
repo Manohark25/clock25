@@ -93,7 +93,7 @@ end
 end
 end
 
-parameter u=8'd0;
+reg u=8'd0;
 
 
 always @(posedge clk) begin
