@@ -26,7 +26,7 @@ else
 begin
    delay<=27'b0000;
 
-   if (x==0)begin
+	if (x==0)begin
 one_sec = 8'd0;
 min9 = 8'd0;
 hour9 = 8'd0;
@@ -39,10 +39,10 @@ hour2_=8'd48;
 one_sec_=8'd48;
 min9_=8'd48;
 hour9_=8'd48;
-x=0;
+x=1;
 
 end
-else if (x==0)
+	else if (x==1)
 begin
 if (ten_sec==8'd5 && one_sec==8'd9 && min5==8'd5 && min9==8'd9 && hour9==8'd3 && hour2==8'd2) begin
    ten_sec<=8'd0;
